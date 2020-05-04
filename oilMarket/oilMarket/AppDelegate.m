@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#define kScreenBounds [UIScreen mainScreen].bounds
 
 @interface AppDelegate ()
 
@@ -17,7 +18,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    return YES;
+    self.window = [[UIWindow alloc] initWithFrame:kScreenBounds];
+    
+    self.window.rootViewController = [[UIViewController alloc] init];
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];    return YES;
 }
 
 
