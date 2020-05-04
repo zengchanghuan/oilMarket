@@ -15,10 +15,10 @@
 		8E388AA6246007DE00FDC571 /* CONavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E388AA3246007DE00FDC571 /* CONavigationController.m */; };
 		8E388AA7246007DE00FDC571 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E388AA4246007DE00FDC571 /* AppDelegate.m */; };
 		8E388AA8246007DE00FDC571 /* COTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E388AA5246007DE00FDC571 /* COTabBarViewController.m */; };
-		8E388ABD246008A600FDC571 /* GasStationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E388AB3246008A600FDC571 /* GasStationViewController.m */; };
 		8E388ABE246008A600FDC571 /* MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E388AB6246008A600FDC571 /* MeViewController.m */; };
 		8E388ABF246008A600FDC571 /* AddCreditsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E388AB9246008A600FDC571 /* AddCreditsViewController.m */; };
 		8E388AC0246008A600FDC571 /* MarketViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E388ABB246008A600FDC571 /* MarketViewController.m */; };
+		8E388AC724600AAF00FDC571 /* GasStationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E388AC424600AAE00FDC571 /* GasStationViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,8 +56,6 @@
 		8E388AA3246007DE00FDC571 /* CONavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CONavigationController.m; sourceTree = "<group>"; };
 		8E388AA4246007DE00FDC571 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		8E388AA5246007DE00FDC571 /* COTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = COTabBarViewController.m; sourceTree = "<group>"; };
-		8E388AB2246008A600FDC571 /* GasStationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GasStationViewController.h; sourceTree = "<group>"; };
-		8E388AB3246008A600FDC571 /* GasStationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GasStationViewController.m; sourceTree = "<group>"; };
 		8E388AB5246008A600FDC571 /* MeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeViewController.h; sourceTree = "<group>"; };
 		8E388AB6246008A600FDC571 /* MeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeViewController.m; sourceTree = "<group>"; };
 		8E388AB8246008A600FDC571 /* AddCreditsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddCreditsViewController.h; sourceTree = "<group>"; };
@@ -65,6 +63,8 @@
 		8E388ABB246008A600FDC571 /* MarketViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarketViewController.m; sourceTree = "<group>"; };
 		8E388ABC246008A600FDC571 /* MarketViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarketViewController.h; sourceTree = "<group>"; };
 		8E388AC1246008CD00FDC571 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		8E388AC324600AAE00FDC571 /* GasStationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GasStationViewController.h; sourceTree = "<group>"; };
+		8E388AC424600AAE00FDC571 /* GasStationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GasStationViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,8 +163,9 @@
 		8E388AB1246008A600FDC571 /* GasStation */ = {
 			isa = PBXGroup;
 			children = (
-				8E388AB2246008A600FDC571 /* GasStationViewController.h */,
-				8E388AB3246008A600FDC571 /* GasStationViewController.m */,
+				8E388AC224600AAE00FDC571 /* Controller */,
+				8E388AC624600AAE00FDC571 /* Model */,
+				8E388AC524600AAE00FDC571 /* View */,
 			);
 			path = GasStation;
 			sourceTree = "<group>";
@@ -194,6 +195,29 @@
 				8E388ABC246008A600FDC571 /* MarketViewController.h */,
 			);
 			path = Market;
+			sourceTree = "<group>";
+		};
+		8E388AC224600AAE00FDC571 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8E388AC324600AAE00FDC571 /* GasStationViewController.h */,
+				8E388AC424600AAE00FDC571 /* GasStationViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8E388AC524600AAE00FDC571 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8E388AC624600AAE00FDC571 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -327,8 +351,8 @@
 			files = (
 				8E388ABE246008A600FDC571 /* MeViewController.m in Sources */,
 				8E388AA8246007DE00FDC571 /* COTabBarViewController.m in Sources */,
+				8E388AC724600AAF00FDC571 /* GasStationViewController.m in Sources */,
 				8E388A762460069800FDC571 /* main.m in Sources */,
-				8E388ABD246008A600FDC571 /* GasStationViewController.m in Sources */,
 				8E388AC0246008A600FDC571 /* MarketViewController.m in Sources */,
 				8E388AA7246007DE00FDC571 /* AppDelegate.m in Sources */,
 				8E388ABF246008A600FDC571 /* AddCreditsViewController.m in Sources */,
