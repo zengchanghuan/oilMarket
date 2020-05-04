@@ -12,7 +12,6 @@
 		8E388A762460069800FDC571 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E388A752460069800FDC571 /* main.m */; };
 		8E388A802460069800FDC571 /* oilMarketTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E388A7F2460069800FDC571 /* oilMarketTests.m */; };
 		8E388A8B2460069800FDC571 /* oilMarketUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E388A8A2460069800FDC571 /* oilMarketUITests.m */; };
-		8E388AA6246007DE00FDC571 /* CONavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E388AA3246007DE00FDC571 /* CONavigationController.m */; };
 		8E388AA7246007DE00FDC571 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E388AA4246007DE00FDC571 /* AppDelegate.m */; };
 		8E388AA8246007DE00FDC571 /* COTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E388AA5246007DE00FDC571 /* COTabBarViewController.m */; };
 		8E388ABE246008A600FDC571 /* MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E388AB6246008A600FDC571 /* MeViewController.m */; };
@@ -52,7 +51,6 @@
 		8E388A8C2460069800FDC571 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8E388AA0246007DE00FDC571 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8E388AA2246007DE00FDC571 /* COTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = COTabBarViewController.h; sourceTree = "<group>"; };
-		8E388AA3246007DE00FDC571 /* CONavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CONavigationController.m; sourceTree = "<group>"; };
 		8E388AA4246007DE00FDC571 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		8E388AA5246007DE00FDC571 /* COTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = COTabBarViewController.m; sourceTree = "<group>"; };
 		8E388AB5246008A600FDC571 /* MeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeViewController.h; sourceTree = "<group>"; };
@@ -64,7 +62,6 @@
 		8E388AC1246008CD00FDC571 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		8E388AC324600AAE00FDC571 /* GasStationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GasStationViewController.h; sourceTree = "<group>"; };
 		8E388AC424600AAE00FDC571 /* GasStationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GasStationViewController.m; sourceTree = "<group>"; };
-		8E388AC824601AFE00FDC571 /* CONavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CONavigationController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,8 +150,6 @@
 				8E388AA0246007DE00FDC571 /* AppDelegate.h */,
 				8E388AA4246007DE00FDC571 /* AppDelegate.m */,
 				8E388AA2246007DE00FDC571 /* COTabBarViewController.h */,
-				8E388AA3246007DE00FDC571 /* CONavigationController.m */,
-				8E388AC824601AFE00FDC571 /* CONavigationController.h */,
 				8E388AA5246007DE00FDC571 /* COTabBarViewController.m */,
 			);
 			path = TabBarController;
@@ -356,7 +351,6 @@
 				8E388AC0246008A600FDC571 /* MarketViewController.m in Sources */,
 				8E388AA7246007DE00FDC571 /* AppDelegate.m in Sources */,
 				8E388ABF246008A600FDC571 /* AddCreditsViewController.m in Sources */,
-				8E388AA6246007DE00FDC571 /* CONavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
