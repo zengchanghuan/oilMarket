@@ -7,12 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8E388A682460069700FDC571 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E388A672460069700FDC571 /* AppDelegate.m */; };
 		8E388A702460069800FDC571 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E388A6F2460069800FDC571 /* Assets.xcassets */; };
 		8E388A732460069800FDC571 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E388A712460069800FDC571 /* LaunchScreen.storyboard */; };
 		8E388A762460069800FDC571 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E388A752460069800FDC571 /* main.m */; };
 		8E388A802460069800FDC571 /* oilMarketTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E388A7F2460069800FDC571 /* oilMarketTests.m */; };
 		8E388A8B2460069800FDC571 /* oilMarketUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E388A8A2460069800FDC571 /* oilMarketUITests.m */; };
+		8E388AA6246007DE00FDC571 /* CONavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E388AA3246007DE00FDC571 /* CONavigationController.m */; };
+		8E388AA7246007DE00FDC571 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E388AA4246007DE00FDC571 /* AppDelegate.m */; };
+		8E388AA8246007DE00FDC571 /* COTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E388AA5246007DE00FDC571 /* COTabBarViewController.m */; };
+		8E388ABD246008A600FDC571 /* GasStationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E388AB3246008A600FDC571 /* GasStationViewController.m */; };
+		8E388ABE246008A600FDC571 /* MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E388AB6246008A600FDC571 /* MeViewController.m */; };
+		8E388ABF246008A600FDC571 /* AddCreditsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E388AB9246008A600FDC571 /* AddCreditsViewController.m */; };
+		8E388AC0246008A600FDC571 /* MarketViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E388ABB246008A600FDC571 /* MarketViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,8 +40,6 @@
 
 /* Begin PBXFileReference section */
 		8E388A632460069700FDC571 /* oilMarket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = oilMarket.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8E388A662460069700FDC571 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		8E388A672460069700FDC571 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		8E388A6F2460069800FDC571 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8E388A722460069800FDC571 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8E388A742460069800FDC571 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -46,6 +50,21 @@
 		8E388A862460069800FDC571 /* oilMarketUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = oilMarketUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E388A8A2460069800FDC571 /* oilMarketUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = oilMarketUITests.m; sourceTree = "<group>"; };
 		8E388A8C2460069800FDC571 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E388AA0246007DE00FDC571 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8E388AA1246007DE00FDC571 /* CONavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CONavigationController.h; sourceTree = "<group>"; };
+		8E388AA2246007DE00FDC571 /* COTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = COTabBarViewController.h; sourceTree = "<group>"; };
+		8E388AA3246007DE00FDC571 /* CONavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CONavigationController.m; sourceTree = "<group>"; };
+		8E388AA4246007DE00FDC571 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8E388AA5246007DE00FDC571 /* COTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = COTabBarViewController.m; sourceTree = "<group>"; };
+		8E388AB2246008A600FDC571 /* GasStationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GasStationViewController.h; sourceTree = "<group>"; };
+		8E388AB3246008A600FDC571 /* GasStationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GasStationViewController.m; sourceTree = "<group>"; };
+		8E388AB5246008A600FDC571 /* MeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeViewController.h; sourceTree = "<group>"; };
+		8E388AB6246008A600FDC571 /* MeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeViewController.m; sourceTree = "<group>"; };
+		8E388AB8246008A600FDC571 /* AddCreditsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddCreditsViewController.h; sourceTree = "<group>"; };
+		8E388AB9246008A600FDC571 /* AddCreditsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddCreditsViewController.m; sourceTree = "<group>"; };
+		8E388ABB246008A600FDC571 /* MarketViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarketViewController.m; sourceTree = "<group>"; };
+		8E388ABC246008A600FDC571 /* MarketViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarketViewController.h; sourceTree = "<group>"; };
+		8E388AC1246008CD00FDC571 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,9 +115,13 @@
 		8E388A652460069700FDC571 /* oilMarket */ = {
 			isa = PBXGroup;
 			children = (
-				8E388A662460069700FDC571 /* AppDelegate.h */,
-				8E388A672460069700FDC571 /* AppDelegate.m */,
+				8E388AB7246008A600FDC571 /* AddCredits */,
+				8E388AB1246008A600FDC571 /* GasStation */,
+				8E388ABA246008A600FDC571 /* Market */,
+				8E388AB4246008A600FDC571 /* Me */,
+				8E388A9F246007DE00FDC571 /* TabBarController */,
 				8E388A6F2460069800FDC571 /* Assets.xcassets */,
+				8E388AC1246008CD00FDC571 /* PrefixHeader.pch */,
 				8E388A712460069800FDC571 /* LaunchScreen.storyboard */,
 				8E388A742460069800FDC571 /* Info.plist */,
 				8E388A752460069800FDC571 /* main.m */,
@@ -122,6 +145,55 @@
 				8E388A8C2460069800FDC571 /* Info.plist */,
 			);
 			path = oilMarketUITests;
+			sourceTree = "<group>";
+		};
+		8E388A9F246007DE00FDC571 /* TabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				8E388AA0246007DE00FDC571 /* AppDelegate.h */,
+				8E388AA4246007DE00FDC571 /* AppDelegate.m */,
+				8E388AA1246007DE00FDC571 /* CONavigationController.h */,
+				8E388AA2246007DE00FDC571 /* COTabBarViewController.h */,
+				8E388AA3246007DE00FDC571 /* CONavigationController.m */,
+				8E388AA5246007DE00FDC571 /* COTabBarViewController.m */,
+			);
+			path = TabBarController;
+			sourceTree = "<group>";
+		};
+		8E388AB1246008A600FDC571 /* GasStation */ = {
+			isa = PBXGroup;
+			children = (
+				8E388AB2246008A600FDC571 /* GasStationViewController.h */,
+				8E388AB3246008A600FDC571 /* GasStationViewController.m */,
+			);
+			path = GasStation;
+			sourceTree = "<group>";
+		};
+		8E388AB4246008A600FDC571 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				8E388AB5246008A600FDC571 /* MeViewController.h */,
+				8E388AB6246008A600FDC571 /* MeViewController.m */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		8E388AB7246008A600FDC571 /* AddCredits */ = {
+			isa = PBXGroup;
+			children = (
+				8E388AB8246008A600FDC571 /* AddCreditsViewController.h */,
+				8E388AB9246008A600FDC571 /* AddCreditsViewController.m */,
+			);
+			path = AddCredits;
+			sourceTree = "<group>";
+		};
+		8E388ABA246008A600FDC571 /* Market */ = {
+			isa = PBXGroup;
+			children = (
+				8E388ABB246008A600FDC571 /* MarketViewController.m */,
+				8E388ABC246008A600FDC571 /* MarketViewController.h */,
+			);
+			path = Market;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -253,8 +325,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E388ABE246008A600FDC571 /* MeViewController.m in Sources */,
+				8E388AA8246007DE00FDC571 /* COTabBarViewController.m in Sources */,
 				8E388A762460069800FDC571 /* main.m in Sources */,
-				8E388A682460069700FDC571 /* AppDelegate.m in Sources */,
+				8E388ABD246008A600FDC571 /* GasStationViewController.m in Sources */,
+				8E388AC0246008A600FDC571 /* MarketViewController.m in Sources */,
+				8E388AA7246007DE00FDC571 /* AppDelegate.m in Sources */,
+				8E388ABF246008A600FDC571 /* AddCreditsViewController.m in Sources */,
+				8E388AA6246007DE00FDC571 /* CONavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,6 +420,8 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/zengchanghuan/Desktop/oilMarket/oilMarket/oilMarket/PrefixHeader.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -398,6 +478,8 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/zengchanghuan/Desktop/oilMarket/oilMarket/oilMarket/PrefixHeader.pch;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
