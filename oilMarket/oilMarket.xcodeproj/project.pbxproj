@@ -19,6 +19,10 @@
 		8E388AC724600AAF00FDC571 /* GasStationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E388AC424600AAE00FDC571 /* GasStationViewController.m */; };
 		8E388ACD2460F22100FDC571 /* COTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E388AC92460F22100FDC571 /* COTabBarViewController.m */; };
 		8E388ACE2460F22100FDC571 /* CONavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E388ACC2460F22100FDC571 /* CONavigationController.m */; };
+		8ECFCCC72460FC1700F230E7 /* NYSegment.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ECFCCBF2460FC1700F230E7 /* NYSegment.m */; };
+		8ECFCCC82460FC1700F230E7 /* NYSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ECFCCC12460FC1700F230E7 /* NYSegmentedControl.m */; };
+		8ECFCCC92460FC1700F230E7 /* NYSegmentTextRenderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ECFCCC22460FC1700F230E7 /* NYSegmentTextRenderView.m */; };
+		8ECFCCCA2460FC1700F230E7 /* NYSegmentIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ECFCCC32460FC1700F230E7 /* NYSegmentIndicator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +69,14 @@
 		8E388ACA2460F22100FDC571 /* CONavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CONavigationController.h; path = "../../../../文档/CrudeOilMarket/CrudeOilMarket/CrudeOilMarket/TabBarController/CONavigationController.h"; sourceTree = "<group>"; };
 		8E388ACB2460F22100FDC571 /* COTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = COTabBarViewController.h; path = "../../../../文档/CrudeOilMarket/CrudeOilMarket/CrudeOilMarket/TabBarController/COTabBarViewController.h"; sourceTree = "<group>"; };
 		8E388ACC2460F22100FDC571 /* CONavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CONavigationController.m; path = "../../../../文档/CrudeOilMarket/CrudeOilMarket/CrudeOilMarket/TabBarController/CONavigationController.m"; sourceTree = "<group>"; };
+		8ECFCCBF2460FC1700F230E7 /* NYSegment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYSegment.m; sourceTree = "<group>"; };
+		8ECFCCC02460FC1700F230E7 /* NYSegmentIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYSegmentIndicator.h; sourceTree = "<group>"; };
+		8ECFCCC12460FC1700F230E7 /* NYSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYSegmentedControl.m; sourceTree = "<group>"; };
+		8ECFCCC22460FC1700F230E7 /* NYSegmentTextRenderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYSegmentTextRenderView.m; sourceTree = "<group>"; };
+		8ECFCCC32460FC1700F230E7 /* NYSegmentIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYSegmentIndicator.m; sourceTree = "<group>"; };
+		8ECFCCC42460FC1700F230E7 /* NYSegment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYSegment.h; sourceTree = "<group>"; };
+		8ECFCCC52460FC1700F230E7 /* NYSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYSegmentedControl.h; sourceTree = "<group>"; };
+		8ECFCCC62460FC1700F230E7 /* NYSegmentTextRenderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYSegmentTextRenderView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +127,7 @@
 		8E388A652460069700FDC571 /* oilMarket */ = {
 			isa = PBXGroup;
 			children = (
+				8ECFCCB02460F9DA00F230E7 /* Third */,
 				8E388AB7246008A600FDC571 /* AddCredits */,
 				8E388AB1246008A600FDC571 /* GasStation */,
 				8E388ABA246008A600FDC571 /* Market */,
@@ -218,6 +231,29 @@
 			children = (
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		8ECFCCB02460F9DA00F230E7 /* Third */ = {
+			isa = PBXGroup;
+			children = (
+				8ECFCCBE2460FC1700F230E7 /* NYSegmentedControl */,
+			);
+			path = Third;
+			sourceTree = "<group>";
+		};
+		8ECFCCBE2460FC1700F230E7 /* NYSegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				8ECFCCBF2460FC1700F230E7 /* NYSegment.m */,
+				8ECFCCC02460FC1700F230E7 /* NYSegmentIndicator.h */,
+				8ECFCCC12460FC1700F230E7 /* NYSegmentedControl.m */,
+				8ECFCCC22460FC1700F230E7 /* NYSegmentTextRenderView.m */,
+				8ECFCCC32460FC1700F230E7 /* NYSegmentIndicator.m */,
+				8ECFCCC42460FC1700F230E7 /* NYSegment.h */,
+				8ECFCCC52460FC1700F230E7 /* NYSegmentedControl.h */,
+				8ECFCCC62460FC1700F230E7 /* NYSegmentTextRenderView.h */,
+			);
+			path = NYSegmentedControl;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -349,7 +385,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8ECFCCC72460FC1700F230E7 /* NYSegment.m in Sources */,
 				8E388ACD2460F22100FDC571 /* COTabBarViewController.m in Sources */,
+				8ECFCCCA2460FC1700F230E7 /* NYSegmentIndicator.m in Sources */,
 				8E388ABE246008A600FDC571 /* MeViewController.m in Sources */,
 				8E388AC724600AAF00FDC571 /* GasStationViewController.m in Sources */,
 				8E388A762460069800FDC571 /* main.m in Sources */,
@@ -357,6 +395,8 @@
 				8E388AC0246008A600FDC571 /* MarketViewController.m in Sources */,
 				8E388AA7246007DE00FDC571 /* AppDelegate.m in Sources */,
 				8E388ABF246008A600FDC571 /* AddCreditsViewController.m in Sources */,
+				8ECFCCC92460FC1700F230E7 /* NYSegmentTextRenderView.m in Sources */,
+				8ECFCCC82460FC1700F230E7 /* NYSegmentedControl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
