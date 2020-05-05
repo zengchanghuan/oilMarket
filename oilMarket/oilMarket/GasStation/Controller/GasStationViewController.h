@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface GasStationViewController : UIViewController
+@interface GasStationViewController : UITableViewController
 
 @end

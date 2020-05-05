@@ -17,11 +17,41 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     NYSegmentedControl *seq = [self blueSegmentedControl];
-    seq.frame = CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width-80, 44);
+    seq.frame = CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width-200, 44);
     self.navigationItem.titleView = seq;
     [seq addTarget:self action:@selector(selectItem:) forControlEvents:UIControlEventValueChanged];
+    
+    UIView *headerView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, 200)];
+    headerView.backgroundColor = [UIColor purpleColor];
+    self.tableView.tableHeaderView = headerView;
 }
 
+#pragma mark - Table view data source
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    return 5;
+}
+
+-(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    static NSString *CMainCell = @"CMainCell";
+    
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CMainCell];
+    if (cell == nil) {
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault  reuseIdentifier: CMainCell];
+    }
+    
+    // Config your cell
+    cell.textLabel.text = @"xxx";
+    
+    return cell;
+    
+}
+
+-(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return 200;
+}
 - (NYSegmentedControl *)blueSegmentedControl {
     NYSegmentedControl *blueSegmentedControl = [[NYSegmentedControl alloc] initWithItems:@[@"默认通道", @"柴油通道"]];
     blueSegmentedControl.titleTextColor = [UIColor colorWithRed:0.38f green:0.68f blue:0.93f alpha:1.0f];
